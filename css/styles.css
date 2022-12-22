@@ -1,0 +1,122 @@
+#title{
+    background-color:#ff4c68;
+}
+h1 {
+    font-family: 'Montserrat-Black 900';
+    font-size: 2.5rem;
+    line-height: 10.5;
+    padding-top: 23%;
+    padding-left: 8%;
+}
+.container-fluid {
+    padding: 1% ;    
+}
+.btn {
+     
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.title-imag{
+    
+    width: 30%;
+    transform: rotate(20deg);
+    margin-right: 10%;
+}
+.premium{
+    margin-right: 50px;
+    
+}
+.topbar{
+    font-weight: bold;
+    font-size: 1.3rem;
+    
+}
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+
+}
+h3{
+    font-family:Arial, 'Montserrat-Black 900';
+    font-weight: lighter;
+    padding-top: 10%;
+
+}
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+    
+}
+#testimonials{
+    padding: 5% 15%;
+    text-align: center;
+    background-color:#ef8172 ;
+    color: #fff;
+}
+.testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    padding: 20px;
+    margin-top: 4%;
+}
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    margin-top: 0%;
+
+}
+.press-img{
+    width:13%;
+    margin:0% 5%;
+    margin-bottom: 5%;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+#cta{
+    background-color: #ff4c68;
+}
+.ctah{
+    text-align: center;
+    font-family:Arial, 'Montserrat-Black 900';
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 0%;
+    padding-top: 5%;
+    margin-bottom: 0%;
+}
+.ctab{
+    text-align: center;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+    margin-left: 26%;
+    margin-top: 5%;
+}
+
+@media(max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-imag{
+        transform: rotate(0);
+        margin-top: 20px;
+        padding-top: 10%;
+    }
+    
+}
+#footer{
+    text-align: center;
+    padding-top:20px ;
+    padding-bottom: 20px;
+}
+.footer-icon{
+    padding-left: 1%;
+    padding-right: 1%;
+    size: 4;
+}
